@@ -11,12 +11,19 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [x] User can **add items** from the todo list
 * [ ] User can **remove items** from the todo list
 * [ ] User can **edit items** on the todo list
+  * [ ] User can **edit the name** of the task
   * [ ] User can **edit the attribute stat** of the task
+  * [ ] User can **edit the priority** of the task
 * [x] User can **reorder items** on the todo list
 * [ ] User can see **a sprite** of their Hero on the main page.
 * [ ] User can see **their health, experience, and mana bars** of their Hero on the main page.
 
 **Addtional Functionality**
+* [ ] User can **edit the time the task's notification reminder**
+* [ ] User can **edit the number of times the taks is repeated.**
+  * [ ] User can **set the task to repeat on certain days**
+  * [ ] User can **set the task to repeat every choosen number of days.**
+    
 
 **Bonus Functionality**
 
