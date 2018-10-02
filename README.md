@@ -8,7 +8,17 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 ## User Stories
 
 **Required Functionality**
-* [x] User can **successfully add** from the todo list
+* [x] User can **add items** from the todo list
 * [ ] User can **remove items** from the todo list
+* [ ] User can **edit items** from the todo list
+  * [ ] User can **edit the attribute stat** of the task
+* [ ] User can see **a sprite** of their Hero on the main page.
+* [ ] User can see **their health, experience, and mana bars** of their Hero on the main page.
+
+
+
+**Addtional Functionality**
+
+**Bonus Functionality**
 
 
