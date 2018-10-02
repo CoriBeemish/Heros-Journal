@@ -18,6 +18,8 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [ ] User can see **a sprite** of their Hero on the main page.
 * [ ] User can see **their health, experience, and mana bars** of their Hero on the main page.
 * [ ] User will see their **experience points** increase when they click a task as complete.
+* [ ] User can **make a new account** in the app with a custom user name. 
+  * [ ] User can make a new account **with their email** of the task.
 
 **Addtional Functionality**
 * [ ] User can **edit the time the task's notification reminder**
