@@ -17,7 +17,7 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [x] User can **reorder items** on the todo list
 * [ ] User can see **a sprite** of their Hero on the main page.
 * [ ] User can see **their health, experience, and mana bars** of their Hero on the main page.
-* [ ] User can see **the experience bar and mana bar increase or "fill up"** when they click a task as complete.
+* [ ] User will see their **experience points** increase when they click a task as complete.
 
 **Addtional Functionality**
 * [ ] User can **edit the time the task's notification reminder**
@@ -26,8 +26,10 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
   * [ ] User can **set the task to repeat every choosen number of days.**
 * [ ] User can have a **streak** of a task when a task is marked complete for a number of days in a row.
   * [ ] The user will get a larger number of experience points and mana points **the higher their task streak is.**
+  * [ ] User can **edit the attribute stat** of the task
     
 
 **Bonus Functionality**
-
+* [ ] User can **customize their sprite** of the task.
+  * Needs expansion.
 
