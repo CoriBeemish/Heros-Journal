@@ -42,6 +42,13 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [ ] User can "fight" mob bosses to gain more experience and gold.
   * This is where the leveled-up attributes would come into play.
   
-  ## Leveling Up and Attribute Stat Math and Mechanics
+## Leveling Up and Attribute Stat Math and Mechanics
+* All new users start at level 1.
+* Health will start at 100 points.
+* Mana will start at 100 points.
+* Damage from a task is 0.4 points of what the user would have recieved in experience for completing the task.
+* Amount of experience to level up will the the level multiplied by 1000, i.e. (LEVEL * 1000)
+* The amount of experience gained from a task is:
+  * **[UNDER REVISION]**
   
 
