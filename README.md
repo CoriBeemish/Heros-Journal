@@ -7,4 +7,8 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 
 ## User Stories
 
+**Required Functionality**
+* [x] User can **successfully add** from the todo list
+* [ ] User can **remove items** from the todo list
+
 
