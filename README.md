@@ -12,6 +12,7 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [ ] User can **remove items** from the todo list
 * [ ] User can **edit items** on the todo list
   * [ ] User can **edit the name** of the task
+  * [ ] User can **add comments** of the task in the editing window.
   * [ ] User can **edit the attribute stat** of the task
   * [ ] User can **edit the difficulty** of the task
   * [ ] User can **edit the priority** of the task
