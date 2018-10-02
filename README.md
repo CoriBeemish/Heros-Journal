@@ -12,7 +12,7 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [ ] User can **remove items** from the todo list
 * [ ] User can **edit items** on the todo list
   * [ ] User can **edit the name** of the task
-  * [ ] User can **add comments** of the task in the editing window.
+  * [ ] User can **add comments** to the task in the editing window.
   * [ ] User can **edit the attribute stat** of the task
   * [ ] User can **edit the difficulty** of the task
   * [ ] User can **edit the priority** of the task
@@ -24,7 +24,8 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [ ] User can **make a new account** in the app with a custom user name. 
   * [ ] User can make a new account **with their email** of the task.
 * [ ] User can recieve **"damage" to their character's health when they have not completed a task.**
-  * [ ] User will recieve damage when the user's local 12 AM passes and they have incomplete tasks.
+  * [ ] User will recieve damage at midnight local time and they have incomplete tasks.
+  * [ ] Tasks will reset at midnight local time. 
 
 **Addtional Functionality**
 * [ ] User can edit **the time the task's notification reminder**
