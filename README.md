@@ -17,23 +17,30 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [x] User can **reorder items** on the todo list
 * [ ] User can see **a sprite** of their Hero on the main page.
 * [ ] User can see **their health, experience, and mana bars** of their Hero on the main page.
-* [ ] User can see their **experience points** increase when they click a task as complete.
+* [ ] User can see their **experience points** immediately increase when they click a task as complete.
 * [ ] User can **level up** when they gain enough experience points.
 * [ ] User can **make a new account** in the app with a custom user name. 
   * [ ] User can make a new account **with their email** of the task.
+* [ ] User can recieve **"damage" to their character's health when they have not completed a task.**
+  * [ ] User can get damage
 
 **Addtional Functionality**
-* [ ] User can **edit the time the task's notification reminder**
-* [ ] User can **edit the number of times the task is repeated.**
-  * [ ] User can **set the task to repeat on certain days**
-  * [ ] User can **set the task to repeat every choosen number of days.**
+* [ ] User can edit **the time the task's notification reminder**
+* [ ] User can edit **the number of times the task is repeated.**
+  * [ ] User can set the task to **repeat on certain days**
+  * [ ] User can set the task to **repeat every choosen number of days.**
 * [ ] User can have a **streak** of a task when a task is marked complete for a number of days in a row.
   * [ ] The user will get a larger number of experience points and mana points **the higher their task streak is.**
+* [ ] User can **allocate attribute stat points** when they first make an account.
+* [ ] User can **allocate additional points** into their attributes when they level up.
+  
     
 
 **Bonus Functionality**
 * [ ] User can **customize their sprite** of the task.
   * Needs expansion.
+* [ ] User can "fight" mob bosses to gain more experience and gold.
+  * This is where the leveled-up attributes would come into play.
   
   ## Leveling Up and Attribute Stat Math and Mechanics
   
