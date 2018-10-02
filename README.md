@@ -13,6 +13,7 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [ ] User can **edit items** on the todo list
   * [ ] User can **edit the name** of the task
   * [ ] User can **edit the attribute stat** of the task
+  * [ ] User can **edit the difficulty** of the task
   * [ ] User can **edit the priority** of the task
 * [x] User can **reorder items** on the todo list
 * [ ] User can see **a sprite** of their Hero on the main page.
@@ -42,13 +43,15 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [ ] User can "fight" mob bosses to gain more experience and gold.
   * This is where the leveled-up attributes would come into play.
   
-## Leveling Up and Attribute Stat Math and Mechanics
+## Leveling Up Attribute Stat Math Mechanics
 * All new users start at level 1.
 * Health will start at 100 points.
 * Mana will start at 100 points.
 * Damage from a task is 0.4 points of what the user would have recieved in experience for completing the task.
 * Amount of experience to level up will the the level multiplied by 1000, i.e. (LEVEL * 1000)
-* The amount of experience gained from a task is:
-  * **[UNDER REVISION]**
+* The amount of experience gained from a task:
+  * Easy Difficulty: 
+  * Medium Difficulty:
+  * Hard Difficulty:
   
 
