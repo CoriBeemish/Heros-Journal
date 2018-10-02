@@ -32,12 +32,13 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [ ] User can edit **the number of times the task is repeated.**
   * [ ] User can set the task to **repeat on certain days**
   * [ ] User can set the task to **repeat every choosen number of days.**
+* [ ] User can set an **alarm** at a chosen time to signify an incomplete task.
+  * [ ] Tasks will have individual alarms.
 * [ ] User can have a **streak** of a task when a task is marked complete for a number of days in a row.
   * [ ] The user will get a larger number of experience points and mana points **the higher their task streak is.**
 * [ ] User can **allocate attribute stat points** when they first make an account.
 * [ ] User can **allocate additional points** into their attributes when they level up.
-  
-    
+* [ ] User can touch their sprite from the home page and a new page will load where they can view their expanded sprite and their current stat attributes.
 
 **Bonus Functionality**
 * [ ] User can **customize their sprite** of the task.
