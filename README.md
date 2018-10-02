@@ -46,6 +46,22 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [ ] User can "fight" mob bosses to gain more experience and gold.
   * This is where the leveled-up attributes would come into play.
   
+## Attributes
+* Strength: More damage to boss.
+  * Tag: Relating to exercise and physical activity.
+* Perception: More loot drops (Bonus functionality)
+  * Tag: Related to work or finantial tasks.
+* Endurance: More mana (Bonus Functionality)
+  * Not taggable. Will allow points to be addtionally added in at each level up.
+* Constituion: Less uncompleted habit damage.
+  * Tag: Related to health, wellness, and social interaction.
+* Intelligence: Relating to academic or mentally challenging pursuits
+  * Tag: More experience points when completeing a habit.
+* Agility: Less boss damage.
+  * Not taggable. Will allow points to be addtionally added in at each level up.
+* Luck: More rare drops (Bonus Functionality)
+  * Not taggable. Will allow points to be addtionally added in at each level up.
+  
 ## Leveling Up Attribute Stat Math Mechanics
 * All new users start at level 1.
 * Health will start at 100 points.
