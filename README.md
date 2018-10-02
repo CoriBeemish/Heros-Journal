@@ -41,11 +41,21 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [ ] User can touch their sprite from the home page and a new page will load where they can view their expanded sprite and their current stat attributes.
 
 **Bonus Functionality**
-* [ ] User can **customize their sprite** of the task.
-  * Needs expansion.
 * [ ] User can "fight" mob bosses to gain more experience and gold.
   * This is where the leveled-up attributes would come into play.
-  
+* [ ] User can get armor or weapons from dropped items from tasks, bosses, or purchased from the market. 
+* [ ] User can **customize their sprite** of the task.
+  * [ ] User can select different pieces of armor.
+  * [ ] User can select different weapons.
+  * [ ] User can select different skin colors.
+  * [ ] User can select different hair styles.
+  * [ ] User can select different hair colors.
+  * [ ] User can select different eye colors.
+  * [ ] User can select their sprite to be either male or female.
+  * [ ] User can select different races. [Needs expansion]
+* [ ] User can select different classes. [Needs expansion.]
+
+ 
 ## Attributes
 * Strength: More damage to boss.
   * Tag: Relating to exercise and physical activity.
@@ -62,7 +72,7 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * Luck: More rare drops (Bonus Functionality)
   * Not taggable. Will allow points to be addtionally added in at each level up.
   
-## Leveling Up Attribute Stat Math Mechanics
+## Leveling Up Attribute Stat Math Mechanics [UNDER REVISION]
 * All new users start at level 1.
 * Health will start at 100 points.
 * Mana will start at 100 points.
@@ -72,5 +82,6 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
   * Easy Difficulty: 
   * Medium Difficulty:
   * Hard Difficulty:
+* The amount of 
   
 
