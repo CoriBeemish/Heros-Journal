@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--Color primary 500 from palette colors -->
-    <color name="primary">#ff9800</color>
+    <color name="primary">#756651</color>
     <!--Color primary dark 700 from palette colors -->
     <color name="primaryDark">#0288D1</color>
+    <color name="background_material_light">#ffeed1</color>
+    <color name="dark">#443728</color>
+    <color name="colorPrimaryDark">#2f2417</color>
+    <color name="darkprimary">#2b1e0f</color>
 </resources>

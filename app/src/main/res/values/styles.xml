@@ -6,6 +6,11 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@android:color/holo_orange_dark</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+    </style>
+
+    <style name="heroesjournal" parent="AppTheme" >
+        <item name="colorPrimaryDark">@color/darkprimary</item>
     </style>
 
 </resources>
