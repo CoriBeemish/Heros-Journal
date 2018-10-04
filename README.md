@@ -24,7 +24,7 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [ ] User can **make a new account** in the app with a custom user name. 
   * [ ] User can make a new account **with their email** of the task.
 * [ ] User can recieve **"damage" to their character's health when they have not completed a task.**
-  * [ ] User will recieve damage at midnight local time and they have incomplete tasks.
+  * [ ] User will recieve damage at midnight local time if they have incomplete tasks.
   * [ ] Tasks will reset at midnight local time. 
 
 **Addtional Functionality**
