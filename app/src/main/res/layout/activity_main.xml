@@ -38,7 +38,9 @@
         android:layout_height="155dp"
         android:layout_alignBottom="@+id/fab_image_button"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
         app:srcCompat="@mipmap/ic_launcher" />
 
     <TextView
@@ -57,6 +59,15 @@
         android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/textView"
         android:layout_marginEnd="49dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="93dp"
         android:text="TextView" />
 
 </RelativeLayout>
