@@ -78,10 +78,13 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * Mana will start at 100 points.
 * Damage from a task is 0.4 points of what the user would have recieved in experience for completing the task.
 * Amount of experience to level up will the the level multiplied by 1000, i.e. (LEVEL * 1000)
-* The amount of experience gained from a task:
+* The amount of experience gained from a task **not tagged**:
   * Easy Difficulty: 
   * Medium Difficulty:
   * Hard Difficulty:
-* The amount of 
+* The amount of experience gained from a task **tagged Strength**:
+  * Easy Difficulty: 
+  * Medium Difficulty:
+  * Hard Difficulty:
   
 
