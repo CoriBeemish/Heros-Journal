@@ -58,19 +58,19 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
  
 ## Attributes
 * Not sure how to make the attributes work for boss battles or to increase mana, but that will be worked on in later updates.
-* Strength: More damage to boss.
+* **S**trength: More damage to boss.
   * **Taggable.** Relating to exercise and physical activity.
-* Perception: More loot drops (Bonus functionality)
+* **P**erception: More loot drops (Bonus functionality)
   * **Taggable.** Related to work or financial tasks.
-* Endurance: More mana (Bonus Functionality)
+* **E**ndurance: More mana (Bonus Functionality)
   * **Not taggable.** Will allow points to be additionally added in at each level up.
-* Constitution: Less uncompleted habit damage.
+* **C**onstitution: Less uncompleted habit damage.
   * **Taggable.** Related to health, wellness, and social interaction.
-* Intelligence: Relating to academic or mentally challenging pursuits
+* **I**ntelligence: Relating to academic or mentally challenging pursuits
   * **Taggable.** More experience points when completing a habit.
-* Agility: Less boss damage.
+* **A**gility: Less boss damage.
   * **Not taggable.** Will allow points to be additionally added in at each level up.
-* Luck: More rare drops (Bonus Functionality)
+* **L**uck: More rare drops (Bonus Functionality)
   * **Not taggable.** Will allow points to be additionally added in at each level up.
   
 ## Leveling Up Attribute Stat Math Mechanics [UNDER REVISION]
@@ -93,19 +93,36 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
   * Medium: 0.2 +
   * Hard: 0.4 +
   * Example: 10 easy intelligence tasks completed in a level will allow the Intelligence Attribute Stat to increase by 1. 5 medium Constitution tasks will allow the Constitution Attribute Stat to increase by 1. 5 hard Strength tasks will allow the Strength Attribute Stat to increase by 2.
+  
+  
 * The amount of **experience gained** from a task **not tagged**:
-  * Easy Difficulty: ((streak modifier) * 5) / 10
-  * Medium Difficulty:  ((streak modifier) * 10) / 10
-  * Hard Difficulty: ((streak modifier) * 25) / 10
+
+EXP Gained | Task Not Tagged
+------------ | -------------
+Easy Difficulty | ((streak modifier) * 5) / 10
+Medium Difficulty |  ((streak modifier) * 10) / 10
+Hard Difficulty | ((streak modifier) * 25) / 10
+
 * The amount of **damage received** from a task **not tagged**:
-  * Easy Difficulty: NoTagEXP_Easy * 0.4
-  * Medium Difficulty: NoTagEXP_Medium * 0.4
-  * Hard Difficulty: NoTagEXP_Hard * 0.4
+
+Damage Recieved | Task Not Tagged
+------------ | -------------
+Easy Difficulty| NoTagEXP_Easy * 0.4
+Medium Difficulty| NoTagEXP_Medium * 0.4
+Hard Difficulty| NoTagEXP_Hard * 0.4
+
 * The amount of **experience gained** from a task **tagged Strength, Perception, Constitution, or Intelligence.**:
-  * Easy Difficulty:  [Attribute]EXP_Easy = ((streak_modifier) * 8) / 10
-  * Medium Difficulty:  [Attribute]EXP_Medium= ((streak_modifier) * 15) / 10
-  * Hard Difficulty:  [Attribute]EXP_Hard = ((streak_modifier) * 30) / 10
+
+EXP Gained | Tagged Tasks
+------------ | -------------
+Easy Difficulty |  [Attribute]EXP_Easy = ((streak_modifier) * 8) / 10
+Medium Difficulty |  [Attribute]EXP_Medium= ((streak_modifier) * 15) / 10
+Hard Difficulty |  [Attribute]EXP_Hard = ((streak_modifier) * 30) / 10
+
 * The amount of **damage received** from a task **tagged Strength, Perception, Constitution, or Intelligence.**:
-  * Easy Difficulty:  [Attribute]EXP_Easy * 0.4
-  * Medium Difficulty: [Attribute]EXP_Medium * 0.4
-  * Hard Difficulty: [Attribute]EXP_Hard * 0.4
+
+Damage Recieved | Tagged Tasks
+------------ | -------------
+Easy Difficulty |  [Attribute]EXP_Easy * 0.4
+Medium Difficulty | [Attribute]EXP_Medium * 0.4
+Hard Difficulty | [Attribute]EXP_Hard * 0.4
