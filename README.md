@@ -126,3 +126,5 @@ Damage Recieved | Tagged Tasks
 Easy Difficulty |  [Attribute]EXP_Easy * 0.4
 Medium Difficulty | [Attribute]EXP_Medium * 0.4
 Hard Difficulty | [Attribute]EXP_Hard * 0.4
+
+https://imgur.com/QHK5TM8
