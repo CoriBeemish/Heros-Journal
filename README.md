@@ -56,21 +56,21 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [ ] User can select different classes. [Needs expansion.]
 
  
-## Attributes
+## Attributes (Needs Expansion & Explaination)
 * Strength: More damage to boss.
-  * Tag: Relating to exercise and physical activity.
+  * **Taggable.** Relating to exercise and physical activity.
 * Perception: More loot drops (Bonus functionality)
-  * Tag: Related to work or finantial tasks.
+  * **Taggable.** Related to work or finantial tasks.
 * Endurance: More mana (Bonus Functionality)
-  * Not taggable. Will allow points to be addtionally added in at each level up.
+  * **Not taggable.** Will allow points to be addtionally added in at each level up.
 * Constituion: Less uncompleted habit damage.
-  * Tag: Related to health, wellness, and social interaction.
+  * **Taggable.** Related to health, wellness, and social interaction.
 * Intelligence: Relating to academic or mentally challenging pursuits
-  * Tag: More experience points when completeing a habit.
+  * **Taggable.** More experience points when completeing a habit.
 * Agility: Less boss damage.
-  * Not taggable. Will allow points to be addtionally added in at each level up.
+  * **Not taggable.** Will allow points to be addtionally added in at each level up.
 * Luck: More rare drops (Bonus Functionality)
-  * Not taggable. Will allow points to be addtionally added in at each level up.
+  * **Not taggable.** Will allow points to be addtionally added in at each level up.
   
 ## Leveling Up Attribute Stat Math Mechanics [UNDER REVISION]
 * All new users start at level 1.
