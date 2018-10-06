@@ -56,7 +56,8 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [ ] User can select different classes. [Needs expansion.]
 
  
-## Attributes (Needs Expansion & Explaination)
+## Attributes
+* Not sure how to make the attributes work for boss battles, but that will be worked on in later updates.
 * Strength: More damage to boss.
   * **Taggable.** Relating to exercise and physical activity.
 * Perception: More loot drops (Bonus functionality)
@@ -77,12 +78,29 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * Health will start at 100 points.
 * Mana will start at 100 points.
 * Damage from a task is 0.4 points of what the user would have recieved in experience for completing the task.
-* Amount of experience to level up will the the level multiplied by 1000, i.e. (LEVEL * 1000)
-* The amount of experience gained from a task **not tagged**:
+* **Amount of experience to level up** will the the level multiplied by 1000: 
+  * LEVEL * 1000
+* The number of **health points** a user gains per level:
+  * newHealthPoints = healthPoints + (healthPoints * 0.2)
+* The amount of **free points** a user gets to put into any attribute they want:
+  * 1 - 25: 2
+  * 26 - 50: 4
+  * 51 - 75: 6
+  * 76 - 100: 8
+* The **attribute stat increase** occurs when a user completes enough tagged tasks to 
+* The amount of **experience gained** from a task **not tagged**:
   * Easy Difficulty: 
   * Medium Difficulty:
   * Hard Difficulty:
-* The amount of experience gained from a task **tagged Strength**:
+* The amount of **damage recieved** from a task **not tagged**:
+  * Easy Difficulty: 
+  * Medium Difficulty:
+  * Hard Difficulty:
+* The amount of **experience gained** from a task **tagged Strength**:
+  * Easy Difficulty: 
+  * Medium Difficulty:
+  * Hard Difficulty:
+* The amount of **damage recieved** from a task **tagged Strength**:
   * Easy Difficulty: 
   * Medium Difficulty:
   * Hard Difficulty:
