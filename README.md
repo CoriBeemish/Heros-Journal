@@ -73,7 +73,7 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * **L**uck: More rare drops (Bonus Functionality)
   * **Not taggable.** Will allow points to be additionally added in at each level up.
   
-## Leveling Up Attribute Stat Math Mechanics [UNDER REVISION]
+## Leveling Up Attribute Stat Math Mechanics
 * All new users start at level 1.
 * Health will start at 100 points.
 * Mana will start at 100 points.
@@ -94,7 +94,7 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
   * Hard: 0.4 +
   * Example: 10 easy intelligence tasks completed in a level will allow the Intelligence Attribute Stat to increase by 1. 5 medium Constitution tasks will allow the Constitution Attribute Stat to increase by 1. 5 hard Strength tasks will allow the Strength Attribute Stat to increase by 2.
   
-  
+## Experience & Damage
 * The amount of **experience gained** from a task **not tagged**:
 
 EXP Gained | Task Not Tagged
