@@ -32,13 +32,15 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity{
 
 
-    //Create Objects.
+    TextView health, exp, mana, level;
+    Integer healthNum,expNum,manaNum, maxHealth, maxMana, maxEXP, levelNum;
 
     private LinearLayout parentLinearLayout;
     //ListView listView;
@@ -49,10 +51,16 @@ public class MainActivity extends AppCompatActivity{
         setContentView(R.layout.activity_main);
         parentLinearLayout = findViewById(R.id.parent_linear_layout);
       //listView = findViewById(R.id.list);
+        health = (TextView)findViewById(R.id.textView11);
+        exp= (TextView)findViewById(R.id.textView17);
+        mana= (TextView)findViewById(R.id.textView12);
+        level=(TextView)findViewById(R.id.textView18);
 
+        healthNum = 750; expNum = 25; manaNum = 350; maxHealth = 1000; maxMana = 600;maxEXP = 300; levelNum=1;
 
 
     }
+
 
     public void onAddTask(View v) {
         LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -63,7 +71,72 @@ public class MainActivity extends AppCompatActivity{
 
     public void onDelete(View v) {
         parentLinearLayout.removeView((View) v.getParent());
+        healthNum -= 75;
+        manaNum -= 50;
+        health.setText(healthNum.toString()+ "/" + maxHealth);
+        mana.setText(manaNum.toString()+ "/" + maxMana);
+
+        CheckStats();
     }
+    public void onComplete (View v)
+    {
+        parentLinearLayout.removeView((View) v.getParent());
+        healthNum += 50;
+        manaNum += 35;
+        expNum += 115;
+
+        if(healthNum < maxHealth)
+        {
+            health.setText(healthNum.toString() + "/" + maxHealth);
+        }
+
+        if(manaNum < maxMana) {
+            mana.setText(manaNum.toString() + "/" + maxMana);
+
+        }
+
+        if(expNum < maxEXP) {
+            exp.setText(expNum.toString() + "/" + maxEXP);
+        }
+        CheckStats();
+    }
+
+    public void CheckStats()
+    {
+        if(healthNum > maxHealth){
+            healthNum = maxHealth;
+            health.setText(healthNum.toString() + "/" + maxHealth);
+        }
+
+        if(manaNum > maxMana){
+            manaNum = maxMana;
+            mana.setText(manaNum.toString() + "/" + maxMana);
+        }
+
+        if(expNum > maxEXP)
+        {
+            expNum = expNum-maxEXP;
+            maxEXP = (maxEXP *2) + 15;
+            maxMana +=50;
+            maxHealth += 100;
+            levelNum++;
+            exp.setText(expNum.toString() + "/" + maxEXP);
+            health.setText(healthNum.toString() + "/" + maxHealth);
+            mana.setText(manaNum.toString() + "/" + maxMana);
+            level.setText("LEVEL: " + levelNum.toString());
+        }
+        if(healthNum <= 0){
+            healthNum = 0;
+            health.setText(healthNum.toString() + "/" + maxHealth);
+        }
+
+        if(manaNum <= 0){
+            manaNum = 0;
+            mana.setText(manaNum.toString() + "/" + maxMana);
+        }
+
+    }
+
 
 }
 

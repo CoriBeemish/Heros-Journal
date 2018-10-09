@@ -17,4 +17,12 @@
         android:layout_weight="1"
         android:background="@android:drawable/ic_delete"
         android:onClick="onDelete"/>
+
+    <Button
+        android:id="@+id/complete_button"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="@android:drawable/checkbox_on_background"
+        android:onClick="onComplete" />
 </LinearLayout>
