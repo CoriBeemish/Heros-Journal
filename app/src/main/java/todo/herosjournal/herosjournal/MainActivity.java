@@ -75,11 +75,12 @@ public class MainActivity extends AppCompatActivity{
         manaNum -= 50;
         health.setText(healthNum.toString()+ "/" + maxHealth);
         mana.setText(manaNum.toString()+ "/" + maxMana);
-
+        Toast.makeText(this, " You failed to completed this habit.....", Toast.LENGTH_SHORT).show();
         CheckStats();
     }
     public void onComplete (View v)
     {
+        Toast.makeText(this, " You completed a habit!", Toast.LENGTH_SHORT).show();
         parentLinearLayout.removeView((View) v.getParent());
         healthNum += 50;
         manaNum += 35;
@@ -124,6 +125,7 @@ public class MainActivity extends AppCompatActivity{
             health.setText(healthNum.toString() + "/" + maxHealth);
             mana.setText(manaNum.toString() + "/" + maxMana);
             level.setText("LEVEL: " + levelNum.toString());
+            Toast.makeText(this, "LEVEL UP! You are now level" + levelNum, Toast.LENGTH_LONG).show();
         }
         if(healthNum <= 0){
             healthNum = 0;
