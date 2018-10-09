@@ -3,6 +3,6 @@
     <!--Color primary 500 from palette colors -->
     <color name="primary">#795548</color>
     <!--Color primary dark 700 from palette colors -->
-    <color name="primaryDark">#4E342E</color>
+    <color name="primaryDark">#4e342e</color>
     <color name="background">#fbedd9</color>
 </resources>

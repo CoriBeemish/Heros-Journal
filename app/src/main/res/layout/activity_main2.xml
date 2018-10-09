@@ -7,38 +7,31 @@
     tools:context=".MainActivity"
     android:background="@color/background">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/parent_linear_layout"
+    <ListView
+        android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="255dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginEnd="0dp"
-        android:layout_marginTop="14dp"
-        android:orientation="vertical">
+        android:layout_height="339dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp" />
 
-        <Button
-            android:id="@+id/delete_button"
-            android:layout_width="0dp"
-            android:layout_height="40dp"
-            android:layout_weight="1"
-
-            android:onClick="onDelete" />
-    </LinearLayout>
-
-    <Button
-        android:id="@+id/add_field_button"
-        android:layout_width="100dp"
-        android:layout_height="52dp"
-        android:layout_above="@+id/imageView2"
+    <ImageButton
+        android:id="@+id/fab_image_button"
+        android:layout_width="58dp"
+        android:layout_height="@dimen/fab_button_diameter"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_gravity="center"
-        android:background="@drawable/panelhighavatar"
-        android:onClick="onAddTask"
-        android:paddingLeft="5dp"
-        android:text="Add Task"
-        android:textColor="@color/primaryDark" />
-
+        android:layout_marginBottom="247dp"
+        android:layout_marginStart="19dp"
+        android:background="@drawable/oval_ripple"
+        android:elevation="@dimen/elevation_low"
+        android:src="@mipmap/fab_ic_add"
+        android:stateListAnimator="@anim/button_elevation"
+        android:tint="@android:color/white"
+        tools:ignore="RtlCompat" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -164,5 +157,3 @@
         app:srcCompat="@drawable/borderavatar" />
 
 </RelativeLayout>
-
-
