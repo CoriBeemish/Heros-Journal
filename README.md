@@ -9,7 +9,7 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 
 **Required Functionality**
 * [x] User can **add items** from the to-do list
-* [ ] User can **remove items** from the to-do list
+* [X] User can **remove items** from the to-do list
 * [ ] User can **edit items** on the to-do list
   * [ ] User can **edit the name** of the task
   * [ ] User can **add comments** to the task in the editing window.
@@ -17,8 +17,8 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
   * [ ] User can **edit the difficulty** of the task
   * [ ] User can **edit the priority** of the task
 * [x] User can **reorder items** on the to-do list
-* [ ] User can see **a sprite** of their Hero on the main page.
-* [ ] User can see **their health, experience, and mana bars** of their Hero on the main page.
+* [X] User can see **a sprite** of their Hero on the main page.
+* [X] User can see **their health, experience, and mana bars** of their Hero on the main page.
 * [ ] User can see their **experience points** immediately increase when they click a task as complete.
 * [ ] User can **level up** when they gain enough experience points.
 * [ ] User can **make a new account** in the app with a custom user name. 
