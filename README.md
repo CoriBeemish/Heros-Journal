@@ -10,8 +10,8 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 **Required Functionality**
 * [x] User can **add items** from the to-do list
 * [X] User can **remove items** from the to-do list
-* [ ] User can **edit items** on the to-do list
-  * [ ] User can **edit the name** of the task
+* [X] User can **edit items** on the to-do list
+  * [X] User can **edit the name** of the task
   * [ ] User can **add comments** to the task in the editing window.
   * [ ] User can **edit the attribute stat** of the task
   * [ ] User can **edit the difficulty** of the task
@@ -19,21 +19,20 @@ Group Members: **Cori Beemish, Casey Loria, Augustina Horlava, & Alex Helfrich**
 * [x] User can **reorder items** on the to-do list
 * [X] User can see **a sprite** of their Hero on the main page.
 * [X] User can see **their health, experience, and mana bars** of their Hero on the main page.
-* [ ] User can see their **experience points** immediately increase when they click a task as complete.
-* [ ] User can **level up** when they gain enough experience points.
-* [ ] User can **make a new account** in the app with a custom user name. 
-  * [ ] User can make a new account **with their email** of the task.
-* [ ] User can receive **"damage" to their character's health when they have not completed a task.**
+* [X] User can see their **experience points** immediately increase when they click a task as complete.
+* [X] User can **level up** when they gain enough experience points.
+* [X] User can **make a new account** in the app with a custom user name. 
+  * [X] User can make a new account **with their email** of the task.
+* [X] User can receive **"damage" to their character's health when they have not completed a task.**
   * [ ] User will receive damage at midnight local time if they have incomplete tasks.
   * [ ] Tasks will reset at midnight local time. 
 
 **Additional Functionality**
-* [ ] User can edit **the time the task's notification reminder**
-* [ ] User can edit **the number of times the task is repeated.**
-  * [ ] User can set the task to **repeat on certain days**
-  * [ ] User can set the task to **repeat every chosen number of days.**
-* [ ] User can set an **alarm** at a chosen time to signify an incomplete task.
+* [ ] User can edit **the time the task's alarm/notification reminder**
+  * [ ] The phone will vibrate when an alarm goes off and a push notification will show on the screen.
   * [ ] Tasks will have individual alarms.
+* [ ] User can set the task to **repeat on certain days**
+* [ ] User can set the task to **repeat every chosen number of days.**
 * [ ] User can have a **streak** of a task when a task is marked complete for a number of days in a row.
   * [ ] The user will get a larger number of experience points and mana points **the higher their task streak is.**
 * [ ] User can **allocate attribute stat points** when they first make an account.
