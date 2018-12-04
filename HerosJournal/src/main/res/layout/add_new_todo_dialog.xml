@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/todo_dialogue_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/add_todo_dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/add_new_todo_dialog_title_padding"
+            android:text="@string/add_todo_dialog_title"
+            android:textColor="@color/paperColor"
+            tools:visibility="visible" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="@dimen/new_todo_container_padding"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/todo_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/todo_title"
+                    android:drawablePadding="@dimen/drawable_input_padding"
+                    android:fontFamily="@font/play_bold"
+                    android:hint="@string/todo_title_hint"
+                    android:padding="@dimen/input_padding"
+                    android:textColor="@color/darkBrownFont" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/todo_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/todo_descr"
+                    android:drawablePadding="@dimen/drawable_input_padding"
+                    android:fontFamily="@font/play_bold"
+                    android:hint="@string/todo_content_hint"
+                    android:padding="@dimen/input_padding"
+                    android:textColor="@color/darkBrownFont" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Priority"
+                android:textColor="@color/darkBrownFont"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <RadioGroup
+                android:id="@+id/priorityRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:visibility="gone"
+                tools:visibility="gone">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Low" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Medium" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="High" />
+            </RadioGroup>
+
+            <Spinner
+                android:id="@+id/todo_tag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/attributes"
+                android:padding="@dimen/input_padding" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="Difficulty"
+                android:textColor="@color/darkBrownFont"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <RadioGroup
+                android:id="@+id/difficultyRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                tools:visibility="gone">
+
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Easy" />
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Medium" />
+
+                <RadioButton
+                    android:id="@+id/radioButton9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Hard" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:fontFamily="@font/play_bold"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:text="Repeats: "
+                    android:textColor="@color/fontColorPanel"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/repeatSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:entries="@array/repeats"
+                    android:gravity="center_vertical|center_horizontal|center" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="5dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/todo_date"
+                        android:layout_width="180dp"
+                        android:layout_height="50dp"
+                        android:drawableLeft="@drawable/ic_add_new_todo_date"
+                        android:drawablePadding="@dimen/drawable_input_padding"
+                        android:fontFamily="@font/play_bold"
+                        android:hint="@string/todo_date_hint"
+                        android:padding="@dimen/input_padding"
+                        android:textColor="@color/darkBrownFont"
+                        android:textSize="12sp" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/todo_time"
+                        android:layout_width="180dp"
+                        android:layout_height="50dp"
+                        android:drawableLeft="@drawable/ic_add_new_todo_date"
+                        android:drawablePadding="@dimen/drawable_input_padding"
+                        android:fontFamily="@font/play_bold"
+                        android:hint="@string/todo_time_hint"
+                        android:padding="@dimen/input_padding"
+                        android:textColor="@color/darkBrownFont"
+                        android:textSize="12sp" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/todo_dialog_linear_margin_right"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/todo_dialog_linear_margin_top"
+                android:layout_marginBottom="@dimen/todo_dialog_linear_margin_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/play_bold"
+                    android:text="@string/add_todo_dialog_cancel_text"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/add_new_todo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/todo_dialog_add_margin_left"
+                    android:fontFamily="@font/play_bold"
+                    android:text="@string/add_todo_dialog_title"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

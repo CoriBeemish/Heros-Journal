@@ -1,0 +1,95 @@
+<resources>
+    <dimen name="pending_todo_icon_margin">15dp</dimen>
+    <dimen name="completed_todo_icon_margin">15dp</dimen>
+    <dimen name="no_pending_todo_title_size">16dp</dimen>
+    <dimen name="no_tags_available_size">16dp</dimen>
+    <dimen name="no_completed_todo_title_size">16dp</dimen>
+    <dimen name="floating_button_add_todo_margin">20dp</dimen>
+
+    <dimen name="stat_row_margin">2dp</dimen>
+    <dimen name="stat_table_margin">2dp</dimen>
+    <dimen name="stat_progress_bar_margin_left">10dp</dimen>
+    <dimen name="stat_progress_numbers_margin_left">2dp</dimen>
+
+    <dimen name="status_bars_table_margin_left">160dp</dimen>
+    <dimen name="status_bars_table_margin_botton">20dp</dimen>
+
+    <dimen name="pending_card_view_margin_top">2dp</dimen>
+    <dimen name="pending_card_view_margin_bottom">1dp</dimen>
+    <dimen name="pending_card_view_margin_left">10dp</dimen>
+    <dimen name="pending_card_view_margin_right">10dp</dimen>
+    <dimen name="pending_card_view_elevation">3dp</dimen>
+
+    <dimen name="completed_card_view_margin_top">2dp</dimen>
+    <dimen name="completed_card_view_margin_bottom">1dp</dimen>
+    <dimen name="completed_card_view_margin_left">10dp</dimen>
+    <dimen name="completed_card_view_margin_right">10dp</dimen>
+    <dimen name="completed_card_view_elevation">3dp</dimen>
+
+    <dimen name="tag_card_view_margin">5dp</dimen>
+    <dimen name="tag_card_view_elevation">3dp</dimen>
+    <dimen name="tag_title_text_size">18sp</dimen>
+
+    <dimen name="tag_title_left_margin">10dp</dimen>
+    <dimen name="tag_title_right_margin">10dp</dimen>
+    <dimen name="tag_title_top_margin">15dp</dimen>
+    <dimen name="tag_title_bottom_margin">15dp</dimen>
+    <dimen name="tag_option_icon_margin_top">15dp</dimen>
+    <dimen name="tag_option_icon_margin_right">15dp</dimen>
+    <dimen name="tag_dialog_linear_margin_right">15dp</dimen>
+    <dimen name="tag_dialog_linear_margin_bottom">20dp</dimen>
+    <dimen name="tag_dialog_add_margin_left">15dp</dimen>
+    <dimen name="edit_tag_dialog_add_margin_left">15dp</dimen>
+
+    <dimen name="pending_todo_title_left_margin">5dp</dimen>
+    <dimen name="pending_todo_title_right_margin">5dp</dimen>
+    <dimen name="pending_todo_title_top_margin">0dp</dimen>
+    <dimen name="pending_todo_title_bottom_margin">0dp</dimen>
+    <dimen name="pending_todo_title_text_size">17sp</dimen>
+
+    <dimen name="completed_todo_title_left_margin">5dp</dimen>
+    <dimen name="completed_todo_title_right_margin">5dp</dimen>
+    <dimen name="completed_todo_title_top_margin">0dp</dimen>
+    <dimen name="completed_todo_title_bottom_margin">0dp</dimen>
+    <dimen name="completed_todo_title_text_size">17sp</dimen>
+
+    <dimen name="pending_todo_content_left_margin">5dp</dimen>
+    <dimen name="pending_todo_content_right_margin">5dp</dimen>
+    <dimen name="pending_todo_content_bottom_margin">0dp</dimen>
+    <dimen name="pending_todo_content_text_size">14sp</dimen>
+    <dimen name="add_new_todo_dialog_title_padding">15dp</dimen>
+
+    <dimen name="completed_todo_content_left_margin">5dp</dimen>
+    <dimen name="completed_todo_content_right_margin">5dp</dimen>
+    <dimen name="completed_todo_content_bottom_margin">0dp</dimen>
+    <dimen name="completed_todo_content_text_size">14sp</dimen>
+    <dimen name="completed_to_img_margin_right">15dp</dimen>
+
+    <dimen name="pending_todo_info_section_margin_left">5dp</dimen>
+    <dimen name="pending_todo_info_section_margin_right">5dp</dimen>
+    <dimen name="pending_todo_info_section_bottom_margin">3dp</dimen>
+
+    <dimen name="completed_todo_info_section_margin_left">5dp</dimen>
+    <dimen name="completed_todo_info_section_margin_right">5dp</dimen>
+    <dimen name="completed_todo_info_section_bottom_margin">3dp</dimen>
+
+    <dimen name="todo_info_section_text_size">12sp</dimen>
+    <dimen name="todo_info_section_margin_right">12dp</dimen>
+    <dimen name="todo_info_section_margin_left">12dp</dimen>
+
+    <dimen name="todo_option_margin_right">15dp</dimen>
+    <dimen name="todo_option_margin_top">15dp</dimen>
+    <dimen name="new_todo_container_padding">10dp</dimen>
+    <dimen name="todo_dialog_linear_margin_right">15dp</dimen>
+    <dimen name="todo_dialog_linear_margin_top">15dp</dimen>
+    <dimen name="todo_dialog_linear_margin_bottom">20dp</dimen>
+
+    <dimen name="drawable_input_padding">5dp</dimen>
+    <dimen name="input_padding">12dp</dimen>
+
+    <dimen name="new_tag_dialog_container_margin">15dp</dimen>
+    <dimen name="edit_tag_dialog_container_margin">15dp</dimen>
+    <dimen name="add_new_tag_dialog_title_padding">15dp</dimen>
+    <dimen name="edit_tag_dialog_title_padding">15dp</dimen>
+    <dimen name="todo_dialog_add_margin_left">15dp</dimen>
+</resources>

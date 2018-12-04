@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registerActivityView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/backgroundIMG2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/login_bg3" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/logo3"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:id="@+id/panelIMG2"
+        android:layout_width="match_parent"
+        android:layout_height="463dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:padding="20dp"
+        app:srcCompat="@drawable/login_text_panel3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="364dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:padding="50dp"
+        android:layout_alignParentLeft="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="152dp">
+
+            <TableRow
+                android:layout_width="272dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/play_bold"
+                    android:padding="8dp"
+                    android:text="Enter Email"
+                    android:textColor="@color/fontColorPanel"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <EditText
+                    android:id="@+id/registerEmailEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/play_bold"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/fontColorPanel" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="272dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/play_bold"
+                    android:padding="8dp"
+                    android:text="Enter Password"
+                    android:textColor="@color/fontColorPanel"
+                    android:textSize="12sp"
+                    />
+
+                <EditText
+                    android:id="@+id/registerPasswordEditText"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:layout_marginRight="4dp"
+                    android:padding="8dp"
+                    android:textColor="@color/fontColorPanel" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/play_bold"
+                    android:padding="8dp"
+                    android:text="Confirm Password"
+                    android:textColor="@color/fontColorPanel"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/confirmEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:fontFamily="@font/play_bold"
+                    android:layout_marginRight="4dp"
+
+                    android:inputType="textPersonName"
+                    android:padding="8dp"
+                    android:textColor="@color/fontColorPanel" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="119dp">
+
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginVertical="8dp"
+            android:background="@drawable/button3"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Sign Up"
+            android:textColor="@color/paperColor"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </LinearLayout>
+
+</RelativeLayout>

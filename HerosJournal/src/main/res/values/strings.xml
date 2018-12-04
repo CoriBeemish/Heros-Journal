@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Hero\'s Journal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_title">Hero\'s Journal</string>
+    <string name="complete_todo_activity_title">Completed Activities</string>
+    <string name="all_tags_title">Attributes</string>
+    <string name="settings_title">App Settings</string>
+    <string name="sprite_page_title">Attribute Stats</string>
+    <string name="sprite_customization_title">Customize Character</string>
+
+    <string name="healthLabel">Health</string>
+    <string name="manaLabel">Mana</string>
+    <string name="expLabel">EXP</string>
+    <string name="levelLabel">Level:</string>
+
+    <string name="health_number_demo"> 75/100 </string>
+    <string name="mana_number_demo"> 100/100 </string>
+    <string name="exp_number_demo"> 10/100 </string>
+
+    <string name="nav_pending_todos_text">Pending Activities</string>
+    <string name="nav_completed_todos_text">Completed Activities</string>
+    <string name="nav_tags_text">Attributes</string>
+    <string name="nav_settings_text">Settings</string>
+    <string name="nav_find_on_facebook_text"> </string>
+    <string name="nav_find_on_github_text">Github</string>
+    <string name="nav_rate_us_text"> </string>
+    <string name="nav_share_app_text"> </string>
+    <string name="nav_more_apps_text"> </string>
+
+    <string name="no_pending_todo_text">No Pending Activities Available</string>
+    <string name="pending_todo_demo_title">Pending todo demo title</string>
+    <string name="pending_todo_demo_content">Pending todo demo content</string>
+    <string name="tag_title_demo_text">Demo tag title</string>
+
+    <string name="completed_todo_demo_title">Completed todo demo title</string>
+    <string name="completed_todo_demo_content">Completed todo demo content</string>
+
+    <string name="todo_info_demo_tag_text">Programming</string>
+    <string name="todo_info_demo_date_text">25 Dec, 2017</string>
+    <string name="todo_info_demo_time_from_text">10:20 AM</string>
+
+    <string name="no_completed_todo_text">No Completed Activities Available</string>
+    <string name="no_tags_available_text">No Attributes Available</string>
+
+    <string name="option_completed_search_text">Search</string>
+    <string name="option_completed_delete_text">Delete All</string>
+    <string name="option_completed_settings_text">Settings</string>
+
+    <string name="option_tags_search_text">Search</string>
+    <string name="option_tag_settings_text">Settings</string>
+    <string name="option_save_todo_text">Save Activities</string>
+    <string name="option_tag_edit_text">Edit</string>
+    <string name="option_tag_del_text">Remove</string>
+
+    <string name="option_pending_search_text">Search</string>
+    <string name="option_pending_completed_text">Completed Activities</string>
+    <string name="option_pending_settings_text">Settings</string>
+    <string name="option_all_tags_text">All Attributes</string>
+
+    <string name="add_todo_dialog_title">Add New Activity</string>
+    <string name="save_todo_dialog_title">Save Activity</string>
+    <string name="edit_todo_dialog_title">Edit Activity</string>
+    <string name="todo_title_hint">Enter Activity Title</string>
+    <string name="todo_content_hint">Description</string>
+    <string name="todo_date_hint">Enter reminder date</string>
+    <string name="todo_time_hint">Enter reminder time</string>
+    <string name="add_todo_dialog_positive_text">Add New Activity</string>
+    <string name="add_todo_dialog_cancel_text">Cancel</string>
+    <string name="todo_title_add_success_msg">Activity added successfully !</string>
+
+    <string name="add_tag_dialog_title">Add New Attribute</string>
+    <string name="edit_tag_dialog_title">Edit Attribute</string>
+    <string name="add_tag_dialog_positive_text">Add New Attribute</string>
+    <string name="edit_tag_dialog_positive_text">Save</string>
+    <string name="add_tag_dialog_cancel_text">Cancel</string>
+    <string name="add_tag_text_text_color_text">Tag Text Color</string>
+    <string name="add_tag_text_background_color_text">Attribute Background Color</string>
+    <string name="tag_title_add_success_msg">Attribute added successfully !</string>
+    <string name="tag_delete_dialog_title">Attribute delete Confirmation</string>
+    <string name="tag_delete_dialog_msg">If you delete then your todos associated with this attribute will also be delete.Do you really want to deleted ?</string>
+    <string name="tag_delete_cancel">Cancel</string>
+    <string name="tag_delete_yes">Delete</string>
+    <string name="tag_deleted_success">Attribute deleted successfully !</string>
+    <string name="tag_no_delete">Attribute not deleted !</string>
+    <string name="edit_tag_dialog_cancel_text">Cancel</string>
+    <string name="tag_edit_yes">Save</string>
+    <string name="tag_edit_cancel">Cancel</string>
+    <string name="tag_saved_success">Attribute saved successfully !</string>
+    <string name="tag_no_save">Attribute not changed !</string>
+    <string name="tag_create_dialog_title_text">Attribute create dialog</string>
+    <string name="no_tag_in_the_db_text">There is no attribute in the database.You need to create an attribute first to continue.</string>
+    <string name="create_new_tag">Create New Attribute</string>
+
+    <string name="habitTitle">Habit</string>
+    <string name="taskTitle">Task</string>
+
+    <!--String names for the attributes-->
+    <string name="strengthAttribute">Strength</string>
+    <string name="constitutionAttribute">Constitution</string>
+
+
+    <string name="tag_title_hint">Enter attribute</string>
+    <string name="edit_tag_title_hint">Enter new tag title</string>
+    <string name="pref_category_title_about">Developer Info</string>
+
+    <string-array name="theme_names">
+        <item>Default</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Violete</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>Default</item>
+        <item>Green</item>
+        <item>Red</item>
+        <item>Violete</item>
+    </string-array>
+
+    <string-array name="attributes">
+        <item>Pick an Attribute</item>
+        <item>Strength</item>
+        <item>Perception</item>
+        <item>Constitution</item>
+        <item>Intelligence</item>
+    </string-array>
+
+    <string-array name="repeats">
+        <item>Only Once</item>
+        <item>Every Day</item>
+    </string-array>
+
+    <string name="default_notification_channel_id">ALARM_NOTIFICATION_CHANNEL_ID</string>
+    <string name="default_notification_channel_title">ALARM_CHANNEL</string>
+
+</resources>

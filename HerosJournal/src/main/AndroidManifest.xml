@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Beemish.HerosJournal">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".activities.RealmInitApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.RegisterActivity" />
+        <activity
+            android:name=".activities.CompletedTodos"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.AllTags"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.AppSettings"
+            android:parentActivityName=".activities.MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".activities.AvatarCustomizationActivity"
+            android:parentActivityName=".activities.SpriteStatsActivity"/>
+        <activity android:name=".activities.SpriteStatsActivity"
+            android:parentActivityName=".activities.MainActivity"/>
+    </application>
+
+</manifest>

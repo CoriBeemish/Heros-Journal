@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/search"
+        android:title="@string/option_pending_search_text"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/all_tags"
+        android:checkable="false"
+        android:enabled="false"
+        android:icon="@drawable/ic_show_all_tags"
+        android:title="@string/option_all_tags_text"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/completed"
+        android:title="@string/option_pending_completed_text"
+        android:icon="@drawable/ic_playlist_white_add_check"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/settings"
+        android:checkable="false"
+        android:enabled="false"
+        android:icon="@drawable/ic_white_settings"
+        android:title="@string/option_pending_settings_text"
+        android:visible="false"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg3"
+    tools:context="com.example.Beemish.HerosJournal.activities.SpriteStatsActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/custom_toolbar_layout" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="447dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/customize_bg" />
+
+    <ImageView
+        android:id="@+id/spritePageBackground"
+        android:layout_width="111dp"
+        android:layout_height="0dp"
+        android:layout_alignBottom="@+id/customizationBorderImage"
+        android:layout_alignLeft="@+id/customizationBorderImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/customizationBorderImage"
+        android:layout_alignTop="@+id/customizationBorderImage"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:padding="6dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spritePageBorder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spritePageBorder"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/avatar_bg" />
+
+    <ImageView
+        android:id="@+id/spritePageAvatar"
+        android:layout_width="140dp"
+        android:layout_height="0dp"
+        android:layout_alignBottom="@+id/customizationBorderImage"
+        android:layout_alignLeft="@+id/customizationBorderImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/customizationBorderImage"
+        android:layout_alignTop="@+id/customizationBorderImage"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spritePageBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spritePageBackground"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/avatar_white_plaine_eyes" />
+
+    <ImageView
+        android:id="@+id/spritePageAvatarShirt"
+        android:layout_width="140dp"
+        android:layout_height="0dp"
+        android:layout_alignBottom="@+id/customizationBorderImage"
+        android:layout_alignLeft="@+id/customizationBorderImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/customizationBorderImage"
+        android:layout_alignTop="@+id/customizationBorderImage"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spritePageBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spritePageBackground"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/gear_shirt_blue" />
+
+    <ImageView
+        android:id="@+id/spritePageAvatarHelment"
+        android:layout_width="140dp"
+        android:layout_height="0dp"
+        android:layout_alignBottom="@+id/customizationBorderImage"
+        android:layout_alignLeft="@+id/customizationBorderImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/customizationBorderImage"
+        android:layout_alignTop="@+id/customizationBorderImage"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spritePageBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spritePageBackground"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/gear_helment_bucket" />
+
+    <ImageView
+        android:id="@+id/spritePageAvatarSword"
+        android:layout_width="140dp"
+        android:layout_height="0dp"
+        android:layout_alignBottom="@+id/customizationBorderImage"
+        android:layout_alignLeft="@+id/customizationBorderImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/customizationBorderImage"
+        android:layout_alignTop="@+id/customizationBorderImage"
+        android:padding="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/spritePageBackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spritePageBackground"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/gear_sword_wooden" />
+
+    <ImageView
+        android:id="@+id/spritePageBorder"
+        android:layout_width="117dp"
+        android:layout_height="123dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/avatar_border" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/attributeLevelsView"
+        android:layout_width="299dp"
+        android:layout_height="268dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/customizeButton"
+        app:layout_constraintVertical_bias="0.214">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/customizeButton"
+        android:layout_width="158dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button3"
+        android:fontFamily="@font/play_bold"
+        android:onClick="onClick"
+        android:text="Customize \nAppearance"
+        android:textColor="@color/darkBrownFont"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spritePageBorder" />
+
+</android.support.constraint.ConstraintLayout>

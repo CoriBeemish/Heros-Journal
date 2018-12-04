@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9e542a</color>
+    <color name="colorPrimaryDark">#efa25a</color>
+    <color name="colorAccent">#915631</color>
+
+    <color name="colorPrimaryGreen">#16a085</color>
+    <color name="colorPrimaryDarkGreen">#1abc9c</color>
+    <color name="colorAccentGreen">#16a085</color>
+
+    <color name="colorPrimaryRed">#c0392b</color>
+    <color name="colorPrimaryDarkRed">#e74c3c</color>
+    <color name="colorAccentRed">#c0392b</color>
+
+    <color name="colorPrimaryViolete">#8e44ad</color>
+    <color name="colorPrimaryDarkViolete">#9b59b6</color>
+    <color name="colorAccentViolete">#8e44ad</color>
+
+    <color name="ic_pending_todos_title_color">#707070</color>
+    <color name="ic_completed_todos_title_color">#707070</color>
+    <color name="ic_tags_available_color">#707070</color>
+    <color name="fontColorPanel">#8e553c</color>
+    <color name="redFlag">#ab3233</color>
+    <color name="no_tagsfont">#9aacb7</color>
+    <color name="inkcolor">#222035</color>
+    <color name="paperColor">#fdebda</color>
+    <color name="PaperColorFont">#dfd1c4</color>
+    <color name="darkBrownFont">#382f2e</color>
+    <color name="mainBGColor">#685a59</color>
+</resources>
